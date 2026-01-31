@@ -1,5 +1,3 @@
-'use client'
-
 import React from "react"
 import type { Metadata } from 'next'
 import { Playfair_Display, Lato } from 'next/font/google'
