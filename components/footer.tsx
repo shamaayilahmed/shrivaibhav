@@ -24,10 +24,10 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex flex-col mb-6">
-              <span className="font-serif text-2xl font-bold tracking-wide">
+              <span className="color-logo font-serif text-2xl font-bold tracking-wide">
                 Shri Vaibhav
               </span>
-              <span className="text-xs tracking-[0.3em] uppercase opacity-70">
+              <span className="color-logo text-xs tracking-[0.3em] uppercase opacity-70">
                 Hotels
               </span>
             </Link>

@@ -124,3 +124,14 @@
     @apply bg-background text-foreground;
   }
 }
+.color-logo{
+  color: #dc9828;
+}
+
+.bg-primary{
+  background-color: #a66914;
+}
+
+.fill-accent{
+  fill: #a66914;
+}

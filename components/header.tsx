@@ -22,10 +22,10 @@ export function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex flex-col">
-            <span className="font-serif text-2xl font-bold text-foreground tracking-wide">
+            <span className="color-logo font-serif text-2xl font-bold text-foreground tracking-wide">
               Shri Vaibhav
             </span>
-            <span className="text-xs text-muted-foreground tracking-[0.3em] uppercase">
+            <span className="color-logo text-xs text-muted-foreground tracking-[0.3em] uppercase">
               Hotels
             </span>
           </Link>
