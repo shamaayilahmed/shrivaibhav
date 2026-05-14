@@ -141,9 +141,9 @@ export function ContactForm() {
                 <SelectValue placeholder="Select room type" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="family-suite">Family Suite - ₹5,000/night</SelectItem>
-                <SelectItem value="deluxe-king">Deluxe King Room - ₹7,000/night</SelectItem>
-                <SelectItem value="executive-suite">Executive Suite - ₹9,000/night</SelectItem>
+                <SelectItem value="family-suite">Executive - ₹4,750/night</SelectItem>
+                <SelectItem value="deluxe-king">Signature - ₹5,000/night</SelectItem>
+                <SelectItem value="executive-suite">Family Room - ₹9,999/night</SelectItem>
               </SelectContent>
             </Select>
           </div>
