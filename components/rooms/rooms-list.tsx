@@ -77,9 +77,9 @@ export function RoomsList() {
                     fill
                     className="object-cover"
                   />
-                  <Badge className="absolute top-4 left-4 bg-accent text-accent-foreground">
+                  {/* <Badge className="absolute top-4 left-4 bg-accent text-accent-foreground">
                     {room.badge}
-                  </Badge>
+                  </Badge> */}
                 </div>
                 {/* Decorative Element */}
                 <div className={`absolute -bottom-4 ${index % 2 === 1 ? "-left-4" : "-right-4"} w-32 h-32 bg-accent/10 rounded-xl -z-10`} />
