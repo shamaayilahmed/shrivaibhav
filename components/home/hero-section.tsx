@@ -24,7 +24,7 @@ export function HeroSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20">
         <div className="max-w-2xl">
           {/* Rating Badge */}
-          <div className="inline-flex items-center gap-2 bg-card/90 backdrop-blur-sm px-4 py-2 rounded-full mb-8">
+          {/* <div className="inline-flex items-center gap-2 bg-card/90 backdrop-blur-sm px-4 py-2 rounded-full mb-8">
             <div className="flex">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} className="h-4 w-4 fill-accent text-accent" />
@@ -33,21 +33,21 @@ export function HeroSection() {
             <span className="text-sm font-medium text-card-foreground">
               Rated 4.9 of 5
             </span>
-          </div>
+          </div> */}
 
           {/* Main Heading */}
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-6">
+          {/* <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-6">
             <span className="block">Where heritage</span>
             <span className="block">meets hospitality</span>
-          </h1>
+          </h1> */}
 
           {/* Description */}
-          <p className="text-lg text-primary-foreground/80 leading-relaxed mb-10 max-w-xl">
+          <p className="text-xl text-primary-foreground/80 leading-relaxed mb-10 max-w-xl">
             We invite you to experience graceful living, inspired by tradition and delivered through heartfelt service, refined spaces, and comforts designed for meaningful rest.
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-wrap gap-4">
+          {/* <div className="flex flex-wrap gap-4">
             <Button
               asChild
               size="lg"
@@ -63,7 +63,7 @@ export function HeroSection() {
             >
               <Link href="/rooms">Explore Rooms</Link>
             </Button>
-          </div>
+          </div> */}
 
           {/* Stats */}
           <div className="mt-16 pt-8 border-t border-primary-foreground/20">
