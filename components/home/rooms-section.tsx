@@ -70,9 +70,9 @@ export function RoomsSection() {
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
-                <Badge className="absolute top-4 left-4 bg-accent text-accent-foreground">
+                {/* <Badge className="absolute top-4 left-4 bg-accent text-accent-foreground">
                   {room.badge}
-                </Badge>
+                </Badge> */}
               </div>
 
               {/* Content */}
