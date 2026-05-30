@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/rooms", label: "Rooms & Suites" },
-  { href: "/dining", label: "Dining" },
+  { href: "/dining", label: "Dining and Events" },
   { href: "/gallery", label: "Gallery" },
   { href: "/contact", label: "Contact" },
 ]
@@ -26,7 +26,7 @@ export function Header() {
               Shri Vaibhav
             </span>
             <span className="color-logo text-xs text-muted-foreground tracking-[0.3em] uppercase">
-              Hotels
+              Where heritage meets hospitality
             </span>
           </Link>
 
@@ -46,14 +46,14 @@ export function Header() {
           {/* Right Side Actions */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href="tel:+914312414141"
+              href="tel:+04312456789"
               className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               <Phone className="h-4 w-4" />
-              +91 431 241 4141
+              0431 - 2456789
             </a>
             <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
-              <Link href="/contact">Book Now</Link>
+              <Link href="https://maps.app.goo.gl/3sdjtgP9VmpHfiEcA" target="_blank">View Map</Link>
             </Button>
           </div>
 
@@ -89,14 +89,14 @@ export function Header() {
             ))}
             <div className="pt-4 border-t border-border">
               <a
-                href="tel:+914312414141"
+                href="tel:04312456789"
                 className="flex items-center gap-2 text-sm text-muted-foreground py-2"
               >
                 <Phone className="h-4 w-4" />
-                +91 431 241 4141
+                0431 - 2456789
               </a>
               <Button asChild className="w-full mt-4 bg-primary text-primary-foreground">
-                <Link href="/contact">Book Now</Link>
+                <Link href="https://maps.app.goo.gl/3sdjtgP9VmpHfiEcA" target="_blank">View Map</Link>
               </Button>
             </div>
           </nav>
