@@ -4,24 +4,25 @@ const contactDetails = [
   {
     icon: MapPin,
     title: "Address",
-    content: ["Shri Vaibhav Hotels", "Tiruchirappalli", "Tamil Nadu, India 620001"],
+    // content: ["Shri Vaibhav Hotels", "Tiruchirappalli", "Tamil Nadu, India 620001"],
+    content: ["Major Saravanan Rd", "next to Courtyard Marriott", "SBI Officers Colony", "Raja Colony", "Tiruchirappalli", "Tamil Nadu 620001"]
   },
   {
     icon: Phone,
     title: "Phone",
-    content: ["+91 431 241 4141", "+91 431 241 4242"],
-    href: ["tel:+914312414141", "tel:+914312414242"],
+    content: ["0431 - 2456789", "0431 - 2456789"],
+    href: ["tel:+04312456789", "tel:+04312456789"],
   },
   {
     icon: Mail,
     title: "Email",
-    content: ["reservations@shrivaibhav.co", "info@shrivaibhav.co"],
-    href: ["mailto:reservations@shrivaibhav.co", "mailto:info@shrivaibhav.co"],
+    content: ["reservations@shrivaibhav.co", "feedback@shrivaibhav.co"],
+    href: ["mailto:reservations@shrivaibhav.co", "mailto:feedback@shrivaibhav.co"],
   },
   {
     icon: Clock,
     title: "Front Desk",
-    content: ["24 hours, 7 days a week", "Check-in: 2:00 PM", "Check-out: 11:00 AM"],
+    content: ["24 hours, 7 days a week", "Check-in: 12:00 PM", "Check-out: 10:00 AM"],
   },
 ]
 
@@ -68,13 +69,13 @@ export function ContactInfo() {
         <h4 className="font-medium text-foreground mb-4">Quick Links</h4>
         <div className="space-y-2">
           <a
-            href="tel:+914312414141"
+            href="tel:04312456789"
             className="block w-full text-center py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors font-medium"
           >
             Call to Book
           </a>
           <a
-            href="https://wa.me/914312414141"
+            href="https://wa.me/04312456789"
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full text-center py-3 bg-card text-foreground border border-border rounded-lg hover:bg-secondary transition-colors font-medium"
