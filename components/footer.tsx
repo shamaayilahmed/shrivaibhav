@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin, Facebook, Instagram, Twitter } from "lucide-react"
 const footerLinks = {
   explore: [
     { href: "/rooms", label: "Rooms & Suites" },
-    { href: "/dining", label: "Dining" },
+    { href: "/dining", label: "Dining and Events" },
     { href: "/gallery", label: "Gallery" },
     { href: "/contact", label: "Contact Us" },
   ],
@@ -106,10 +106,10 @@ export function Footer() {
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 flex-shrink-0 opacity-80" />
                 <a
-                  href="tel:+914312414141"
+                  href="tel:+04312456789"
                   className="text-sm opacity-80 hover:opacity-100 transition-opacity"
                 >
-                  +91 431 241 4141
+                  0431 - 2456789
                 </a>
               </li>
               <li className="flex items-center gap-3">
