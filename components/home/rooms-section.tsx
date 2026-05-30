@@ -9,9 +9,9 @@ const rooms = [
     id: 1,
     name: "Executive",
     description: "Premium suite designed for business professionals, offering a blend of luxury and functionality.",
-    image: "/images/executive-suite.jpg",
-    price: 4750,
-    badge: "Executive",
+    image: "/images/family-suite.jpg",
+    price: 5250,
+    badge: "Family",
     amenities: ["King-sized", "Smart TV", "Cold AC", "Minibar"],
   },
   {
@@ -19,19 +19,19 @@ const rooms = [
     name: "Signature",
     description: "Elegant room with a king-sized bed and city views, ideal for business travelers or couples.",
     image: "/images/deluxe-room.jpg",
-    price: 5000,
-    badge: "Signature",
+    price: 6000,
+    badge: "Deluxe",
     amenities: ["King-sized", "Smart TV", "Cold AC", "Minibar"],
   },
-  {
-    id: 3,
-    name: "Family Room",
-    description: "Spacious family-friendly suite with two bedrooms and a living area, perfect for a family vacation.",
-    image: "/images/family-suite.jpg",
-    price: 9999,
-    badge: "Family",
-    amenities: ["King-sized", "Smart TV", "Cold AC", "Minibar"],
-  },
+  // {
+  //   id: 3,
+  //   name: "Family Room",
+  //   description: "Spacious family-friendly suite with two bedrooms and a living area, perfect for a family vacation.",
+  //   image: "/images/executive-suite.jpg",
+  //   price: 9999,
+  //   badge: "Business",
+  //   amenities: ["King-sized", "Smart TV", "Cold AC", "Minibar"],
+  // },
 ]
 
 const amenityIcons: Record<string, typeof Bed> = {
