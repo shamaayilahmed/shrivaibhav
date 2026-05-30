@@ -49,7 +49,7 @@ export function RestaurantSection() {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Reservations</p>
-                  <p className="text-sm text-muted-foreground">+91 431 241 4141</p>
+                  <p className="text-sm text-muted-foreground">0431 - 2456789</p>
                 </div>
               </div>
             </div>
