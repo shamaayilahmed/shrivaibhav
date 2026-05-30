@@ -8,39 +8,41 @@ const rooms = [
   {
     id: 1,
     name: "Executive",
-    image: "/images/executive-suite.jpg",
+    image: "/images/family-suite.jpg",
     description: "Premium suite designed for business professionals, offering a blend of luxury and functionality. Features a separate work area with high-speed internet and a relaxing lounge space for unwinding after meetings.",
-    price: 4750,
-    badge: "Executive",
-    size: "650 sq ft",
-    guests: 3,
+    price: 5250,
+    badge: "Family",
+    // size: "650 sq ft",
+    guests: 2,
+    extra: 1,
     amenities: ["King-sized Bed", "Smart TV", "Cold AC", "Minibar", "Free WiFi", "Room Service"],
-    features: ["Dedicated office space", "Conference call setup", "Premium lounge access", "Butler service"],
+    features: ["Two separate bedrooms", "Living area with sofa", "City view balcony", "24-hour room service"],
   },
   {
     id: 2,
     name: "Signature",
     description: "Elegant room with a king-sized bed and city views, ideal for business travelers or couples seeking comfort and style. Designed with modern amenities and sophisticated decor for a memorable stay.",
     image: "/images/deluxe-room.jpg",
-    price: 5000,
-    badge: "Signature",
-    size: "450 sq ft",
-    guests: 3,
+    price: 6000,
+    badge: "Deluxe",
+    // size: "450 sq ft",
+    guests: 2,
+    extra: 1,
     amenities: ["King-sized Bed", "Smart TV", "Cold AC", "Minibar", "Free WiFi", "Rainfall Shower"],
     features: ["Panoramic city views", "Work desk with ergonomic chair", "Marble bathroom", "Premium bedding"],
   },
-  {
-    id: 3,
-    name: "Family Room",
-    description: "Spacious family-friendly suite with two bedrooms and a living area, perfect for a family vacation. Features separate sleeping quarters for parents and children with a comfortable common area for quality family time.",
-    image: "/images/family-suite.jpg",
-    price: 9999,
-    badge: "Family",
-    size: "800 sq ft",
-    guests: 5,
-    amenities: ["King-sized Bed", "Smart TV", "Cold AC", "Minibar", "Free WiFi", "Espresso Machine"],
-    features: ["Two separate bedrooms", "Living area with sofa", "City view balcony", "24-hour room service"],
-  },
+  // {
+  //   id: 3,
+  //   name: "Family Room",
+  //   description: "Spacious family-friendly suite with two bedrooms and a living area, perfect for a family vacation. Features separate sleeping quarters for parents and children with a comfortable common area for quality family time.",
+  //   image: "/images/executive-suite.jpg",
+  //   price: 9999,
+  //   badge: "Business",
+  //   size: "800 sq ft",
+  //   guests: 5,
+  //   amenities: ["King-sized Bed", "Smart TV", "Cold AC", "Minibar", "Free WiFi", "Espresso Machine"],
+  //   features: ["Dedicated office space", "Conference call setup", "Premium lounge access", "Butler service"],
+  // },
 ]
 
 const amenityIcons: Record<string, typeof Bed> = {
@@ -96,11 +98,11 @@ export function RoomsList() {
                 <div className="flex flex-wrap gap-6 mb-6 pb-6 border-b border-border">
                   <div className="flex items-center gap-2">
                     <Users className="h-5 w-5 text-accent" />
-                    <span className="text-sm text-foreground">Up to {room.guests} guests</span>
+                    <span className="text-sm text-foreground">{room.guests} guests + {room.extra} extra (Chargeable)</span>
                   </div>
-                  <div className="flex items-center gap-2">
+                  {/* <div className="flex items-center gap-2">
                     <span className="text-sm text-foreground">{room.size}</span>
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* Amenities */}
