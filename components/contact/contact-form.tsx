@@ -143,7 +143,7 @@ export function ContactForm() {
               <SelectContent>
                 <SelectItem value="family-suite">Executive - ₹4,750/night</SelectItem>
                 <SelectItem value="deluxe-king">Signature - ₹5,000/night</SelectItem>
-                <SelectItem value="executive-suite">Family Room - ₹9,999/night</SelectItem>
+                {/* <SelectItem value="executive-suite">Family Room - ₹9,999/night</SelectItem> */}
               </SelectContent>
             </Select>
           </div>
