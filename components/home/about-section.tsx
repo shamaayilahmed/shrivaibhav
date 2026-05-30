@@ -48,9 +48,9 @@ export function AboutSection() {
 
           {/* Content */}
           <div>
-            <span className="text-accent uppercase tracking-widest text-sm font-medium">
+            {/* <span className="text-accent uppercase tracking-widest text-sm font-medium">
               About Us
-            </span>
+            </span> */}
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mt-4 mb-6 leading-tight">
               Redefines luxury with world-class accommodations
             </h2>
