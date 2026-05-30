@@ -12,16 +12,14 @@ export function MapSection() {
         </div>
       </div>
       <div className="h-[400px] w-full bg-muted">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125323.4254370469!2d78.61964874683468!3d10.804973476893966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf50ff2aecdad%3A0x6de02c3bedbbaea6!2sTiruchirappalli%2C%20Tamil%20Nadu%2C%20India!5e0!3m2!1sen!2sus!4v1706900000000!5m2!1sen!2sus"
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1021957562034!2d78.6765446!3d10.8034844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf5c8ae7408ef%3A0xff3c0fa5c05aaef9!2sShri%20Vaibhav!5e0!3m2!1sen!2sin!4v1780165168894!5m2!1sen!2sin" 
           width="100%"
           height="100%"
           style={{ border: 0 }}
           allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
+          loading="lazy" 
           title="Shri Vaibhav Hotels Location"
-        />
+          referrerPolicy="no-referrer-when-downgrade"/>
       </div>
     </section>
   )
