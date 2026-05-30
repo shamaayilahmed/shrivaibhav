@@ -24,7 +24,7 @@ export function CtaSection() {
         <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto mb-10">
           Book your stay at Shri Vaibhav Hotels and discover a world of elegance, comfort, and exceptional service that will make your visit truly memorable.
         </p>
-        <div className="flex flex-wrap justify-center gap-4">
+        {/* <div className="flex flex-wrap justify-center gap-4">
           <Button
             asChild
             size="lg"
@@ -40,7 +40,7 @@ export function CtaSection() {
           >
             <Link href="/rooms">View All Rooms</Link>
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   )
