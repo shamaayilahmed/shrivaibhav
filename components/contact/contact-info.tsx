@@ -10,8 +10,8 @@ const contactDetails = [
   {
     icon: Phone,
     title: "Phone",
-    content: ["0431 - 2456789", "0431 - 2456789"],
-    href: ["tel:+04312456789", "tel:+04312456789"],
+    content: ["0431 - 2456789", "91 - 8124034567"],
+    href: ["tel:+04312456789", "tel:+918124034567"],
   },
   {
     icon: Mail,
