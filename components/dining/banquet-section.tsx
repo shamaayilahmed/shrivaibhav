@@ -7,7 +7,7 @@ const features = [
   {
     icon: Users,
     title: "Capacity",
-    description: "Up to 500 guests for grand celebrations",
+    description: "Up to 100 guests for grand celebrations",
   },
   {
     icon: Sparkles,
@@ -34,12 +34,12 @@ export function BanquetSection() {
           {/* Image */}
           <div className="relative lg:order-2">
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden">
-              <Image
+              {/* <Image
                 src="/images/banquet.jpg"
                 alt="Grand banquet hall"
                 fill
                 className="object-cover"
-              />
+              /> */}
             </div>
             {/* Decorative Element */}
             <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-accent/10 rounded-lg -z-10" />
