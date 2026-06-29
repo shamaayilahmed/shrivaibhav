@@ -30,7 +30,7 @@ export function RestaurantSection() {
                 <div>
                   <p className="font-medium text-foreground">Hours</p>
                   <p className="text-sm text-muted-foreground">
-                    Breakfast: 7:00 AM - 10:30 AM | Lunch: 12:30 PM - 3:00 PM | Dinner: 7:00 PM - 11:00 PM
+                    Breakfast: 7:00 AM - 10:30 AM 
                   </p>
                 </div>
               </div>
@@ -40,7 +40,7 @@ export function RestaurantSection() {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Location</p>
-                  <p className="text-sm text-muted-foreground">Ground Floor, Main Building</p>
+                  <p className="text-sm text-muted-foreground">Roof Top</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
