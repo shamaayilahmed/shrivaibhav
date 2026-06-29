@@ -18,7 +18,7 @@ export default function DiningPage() {
       <main>
         <DiningHero />
         <RestaurantSection />
-        <MenuHighlights />
+        {/* <MenuHighlights /> */}
         <BanquetSection />
       </main>
       <Footer />
