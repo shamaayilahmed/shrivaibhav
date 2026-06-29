@@ -21,11 +21,11 @@ const amenities = [
     title: "Fine Dining",
     description: "World-class restaurant serving international cuisine",
   },
-  {
-    icon: Dumbbell,
-    title: "Fitness Center",
-    description: "State-of-the-art gym with personal trainers",
-  },
+  // {
+  //   icon: Dumbbell,
+  //   title: "Fitness Center",
+  //   description: "State-of-the-art gym with personal trainers",
+  // },
   {
     icon: ShieldCheck,
     title: "24/7 Security",
