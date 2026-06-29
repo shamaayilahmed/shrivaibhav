@@ -5,7 +5,7 @@ const footerLinks = {
   explore: [
     { href: "/rooms", label: "Rooms & Suites" },
     { href: "/dining", label: "Dining and Events" },
-    { href: "/gallery", label: "Gallery" },
+    // { href: "/gallery", label: "Gallery" },
     { href: "/contact", label: "Contact Us" },
   ],
   services: [
