@@ -3,8 +3,8 @@ import { Phone, Mail, MapPin, Facebook, Instagram, Twitter } from "lucide-react"
 
 const footerLinks = {
   explore: [
-    { href: "/rooms", label: "Rooms & Suites" },
-    { href: "/dining", label: "Dining and Events" },
+    { href: "/rooms", label: "Rooms" },
+    { href: "/dining", label: "Rooftop" },
     // { href: "/gallery", label: "Gallery" },
     { href: "/contact", label: "Contact Us" },
   ],
@@ -77,7 +77,7 @@ export function Footer() {
           </div>
 
           {/* Services Links */}
-          <div>
+          {/* <div>
             <h3 className="font-serif text-lg font-semibold mb-6">Services</h3>
             <ul className="space-y-3">
               {footerLinks.services.map((link) => (
@@ -91,7 +91,7 @@ export function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Contact Info */}
           <div>
