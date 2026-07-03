@@ -6,7 +6,7 @@ import { RoomsList } from "@/components/rooms/rooms-list"
 import { AmenitiesSection } from "@/components/rooms/amenities-section"
 
 export const metadata: Metadata = {
-  title: "Rooms & Suites | Shri Vaibhav Hotels",
+  title: "Rooms | Shri Vaibhav Hotels",
   description: "Discover our luxurious rooms and suites at Shri Vaibhav Hotels. From family suites to executive accommodations, find your perfect stay.",
 }
 
