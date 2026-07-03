@@ -16,7 +16,7 @@ const rooms = [
     guests: 2,
     extra: 1,
     amenities: ["King-sized Bed", "Smart TV", "Cold AC", "Minibar", "Free WiFi", "Premium Workspace"],
-    features: ["Two separate bedrooms", "Living area with sofa", "City view balcony", "24-hour room service"],
+    // features: ["Two separate bedrooms", "Living area with sofa", "City view balcony", "24-hour room service"],
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const rooms = [
     guests: 2,
     extra: 1,
     amenities: ["King-sized Bed", "Smart TV", "Cold AC", "Minibar", "Free WiFi", "Premium Workspace"],
-    features: ["Panoramic city views", "Work desk with ergonomic chair", "Marble bathroom", "Premium bedding"],
+    // features: ["Panoramic city views", "Work desk with ergonomic chair", "Marble bathroom", "Premium bedding"],
   },
   // {
   //   id: 3,
@@ -51,8 +51,8 @@ const amenityIcons: Record<string, typeof Bed> = {
   "Cold AC": Snowflake,
   "Minibar": Wine,
   "Free WiFi": Wifi,
-  "Room Service": Coffee,
-  "Rainfall Shower": Bath,
+  // "Room Service": Coffee,
+  // "Rainfall Shower": Bath,
   "Espresso Machine": Coffee,
   "Premium Workspace": NotebookPen
 }
