@@ -21,7 +21,7 @@ export function RoomsHero() {
           Accommodations
         </span>
         <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-primary-foreground mt-4 mb-6">
-          Rooms & Suites
+          Rooms
         </h1>
         <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
           Experience unparalleled comfort in our thoughtfully designed rooms and suites, each offering a unique blend of luxury and tranquility.
