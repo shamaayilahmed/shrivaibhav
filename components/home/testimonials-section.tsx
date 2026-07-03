@@ -69,10 +69,10 @@ export function TestimonialsSection() {
 
               {/* Author */}
               <div className="flex items-center justify-between">
-                <div>
+                {/* <div>
                   <h4 className="font-semibold text-foreground">{current.author}</h4>
                   <p className="text-sm text-muted-foreground">{current.role}</p>
-                </div>
+                </div> */}
 
                 {/* Navigation */}
                 <div className="flex gap-2">
