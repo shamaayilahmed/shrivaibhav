@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Bed, Tv, Snowflake, Wine, Wifi, Bath, Coffee, Users, ArrowRight, Check } from "lucide-react"
+import { Bed, Tv, Snowflake, Wine, Wifi, Bath, Coffee, Users, ArrowRight, Check, NotebookPen } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 
@@ -15,7 +15,7 @@ const rooms = [
     // size: "650 sq ft",
     guests: 2,
     extra: 1,
-    amenities: ["King-sized Bed", "Smart TV", "Cold AC", "Minibar", "Free WiFi", "Room Service"],
+    amenities: ["King-sized Bed", "Smart TV", "Cold AC", "Minibar", "Free WiFi", "Premium Workspace"],
     features: ["Two separate bedrooms", "Living area with sofa", "City view balcony", "24-hour room service"],
   },
   {
@@ -28,7 +28,7 @@ const rooms = [
     // size: "450 sq ft",
     guests: 2,
     extra: 1,
-    amenities: ["King-sized Bed", "Smart TV", "Cold AC", "Minibar", "Free WiFi", "Rainfall Shower"],
+    amenities: ["King-sized Bed", "Smart TV", "Cold AC", "Minibar", "Free WiFi", "Premium Workspace"],
     features: ["Panoramic city views", "Work desk with ergonomic chair", "Marble bathroom", "Premium bedding"],
   },
   // {
@@ -54,6 +54,7 @@ const amenityIcons: Record<string, typeof Bed> = {
   "Room Service": Coffee,
   "Rainfall Shower": Bath,
   "Espresso Machine": Coffee,
+  "Premium Workspace": NotebookPen
 }
 
 export function RoomsList() {
@@ -77,9 +78,9 @@ export function RoomsList() {
                     fill
                     className="object-cover"
                   />
-                  {/* <Badge className="absolute top-4 left-4 bg-accent text-accent-foreground">
+                  <Badge className="absolute top-4 left-4 bg-accent text-accent-foreground">
                     {room.badge}
-                  </Badge> */}
+                  </Badge>
                 </div>
                 {/* Decorative Element */}
                 <div className={`absolute -bottom-4 ${index % 2 === 1 ? "-left-4" : "-right-4"} w-32 h-32 bg-accent/10 rounded-xl -z-10`} />
@@ -125,7 +126,7 @@ export function RoomsList() {
                 </div>
 
                 {/* Features */}
-                <div className="mb-8">
+                {/* <div className="mb-8">
                   <h4 className="text-sm font-semibold text-foreground mb-3">Features</h4>
                   <div className="grid grid-cols-2 gap-2">
                     {room.features.map((feature) => (
@@ -135,7 +136,7 @@ export function RoomsList() {
                       </div>
                     ))}
                   </div>
-                </div>
+                </div> */}
 
                 {/* Price and CTA */}
                 <div className="flex flex-wrap items-center justify-between gap-4">
