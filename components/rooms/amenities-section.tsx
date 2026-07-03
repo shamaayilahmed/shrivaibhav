@@ -11,16 +11,16 @@ const amenities = [
     title: "Valet Parking",
     description: "Secure valet parking service available 24/7",
   },
-  {
-    icon: Coffee,
-    title: "In-Room Dining",
-    description: "24-hour room service with an extensive menu",
-  },
-  {
-    icon: Utensils,
-    title: "Fine Dining",
-    description: "World-class restaurant serving international cuisine",
-  },
+  // {
+  //   icon: Coffee,
+  //   title: "In-Room Dining",
+  //   description: "24-hour room service with an extensive menu",
+  // },
+  // {
+  //   icon: Utensils,
+  //   title: "Fine Dining",
+  //   description: "World-class restaurant serving international cuisine",
+  // },
   // {
   //   icon: Dumbbell,
   //   title: "Fitness Center",
@@ -31,15 +31,15 @@ const amenities = [
     title: "24/7 Security",
     description: "Round-the-clock security for your peace of mind",
   },
-  {
-    icon: Clock,
-    title: "Concierge",
-    description: "Dedicated concierge service for all your needs",
-  },
+  // {
+  //   icon: Clock,
+  //   title: "Concierge",
+  //   description: "Dedicated concierge service for all your needs",
+  // },
   {
     icon: Sparkles,
-    title: "Daily Housekeeping",
-    description: "Twice-daily housekeeping with turndown service",
+    title: "Housekeeping",
+    description: "Daily housekeeping with turndown service",
   },
 ]
 
