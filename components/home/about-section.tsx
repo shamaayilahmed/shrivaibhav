@@ -23,7 +23,7 @@ export function AboutSection() {
               <div className="space-y-4">
                 <div className="relative aspect-[4/5] rounded-lg overflow-hidden">
                   <Image
-                    src="/images/lobby.jpg"
+                    src="/reception.webp"
                     alt="Hotel lobby"
                     fill
                     className="object-cover"
@@ -33,7 +33,7 @@ export function AboutSection() {
               <div className="pt-8 space-y-4">
                 <div className="relative aspect-[4/5] rounded-lg overflow-hidden">
                   <Image
-                    src="/images/restaurant.jpg"
+                    src="/dining.webp"
                     alt="Hotel restaurant"
                     fill
                     className="object-cover"
@@ -48,9 +48,9 @@ export function AboutSection() {
 
           {/* Content */}
           <div>
-            <span className="text-accent uppercase tracking-widest text-sm font-medium">
+            {/* <span className="text-accent uppercase tracking-widest text-sm font-medium">
               About Us
-            </span>
+            </span> */}
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mt-4 mb-6 leading-tight">
               Redefines luxury with world-class accommodations
             </h2>
