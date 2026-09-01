@@ -23,7 +23,7 @@ export function AboutSection() {
               <div className="space-y-4">
                 <div className="relative aspect-[4/5] rounded-lg overflow-hidden">
                   <Image
-                    src="/reception.webp"
+                    src="/webp/reception.webp"
                     alt="Hotel lobby"
                     fill
                     className="object-cover"
@@ -33,7 +33,7 @@ export function AboutSection() {
               <div className="pt-8 space-y-4">
                 <div className="relative aspect-[4/5] rounded-lg overflow-hidden">
                   <Image
-                    src="/dining.webp"
+                    src="/webp/dining.webp"
                     alt="Hotel restaurant"
                     fill
                     className="object-cover"
