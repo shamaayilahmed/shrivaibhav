@@ -6,7 +6,7 @@ export function ContactHero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-hotel.jpg"
+          src="/contact-booking-banner.webp"
           alt="Shri Vaibhav hotel"
           fill
           className="object-cover"

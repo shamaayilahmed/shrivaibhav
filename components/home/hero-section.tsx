@@ -11,7 +11,7 @@ export function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-hotel.jpg"
+          src="/home-banner.webp"
           alt="Shri Vaibhav Hotels exterior"
           fill
           className="object-cover"

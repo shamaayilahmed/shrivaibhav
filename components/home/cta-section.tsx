@@ -8,10 +8,10 @@ export function CtaSection() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/banquet.jpg"
+          src="/dining-footer.webp"
           alt="Luxury hotel banquet"
           fill
-          className="object-cover"
+          className="object-cover object-[center_69%]" 
         />
         <div className="absolute inset-0 bg-foreground/70" />
       </div>
