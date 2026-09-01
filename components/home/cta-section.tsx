@@ -8,23 +8,23 @@ export function CtaSection() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/banquet.jpg"
+          src="/dining-footer.webp"
           alt="Luxury hotel banquet"
           fill
-          className="object-cover"
+          className="object-cover object-[center_69%]" 
         />
         <div className="absolute inset-0 bg-foreground/70" />
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
+      {/* <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"> */}
+        {/* <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
           Ready to experience true luxury?
         </h2>
         <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto mb-10">
           Book your stay at Shri Vaibhav Hotels and discover a world of elegance, comfort, and exceptional service that will make your visit truly memorable.
-        </p>
-        <div className="flex flex-wrap justify-center gap-4">
+        </p> */}
+        {/* <div className="flex flex-wrap justify-center gap-4">
           <Button
             asChild
             size="lg"
@@ -40,8 +40,8 @@ export function CtaSection() {
           >
             <Link href="/rooms">View All Rooms</Link>
           </Button>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </section>
   )
 }
